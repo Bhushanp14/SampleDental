@@ -103,15 +103,15 @@ export default function Contact() {
             <form className="space-y-8 relative z-10">
               <div className="flex flex-col gap-3">
                 <label className="text-[#3B82F6] font-black text-[10px] uppercase tracking-[0.2em] ml-2">Full Name</label>
-                <input type="text" placeholder="Your Name" className="w-full bg-[#EFF6FF]/50 p-5 rounded-2xl border-none focus:ring-4 focus:ring-[#3B82F6]/20 focus:outline-none transition-all placeholder:text-slate-400 font-bold" />
+                <input type="text" placeholder="Your Name" className="w-full bg-[#EFF6FF]/50 p-5 rounded-2xl border-none focus:ring-4 focus:ring-[#3B82F6]/20 focus:outline-none transition-all placeholder:text-slate-400 font-bold text-black" />
               </div>
               <div className="flex flex-col gap-3">
                 <label className="text-[#3B82F6] font-black text-[10px] uppercase tracking-[0.2em] ml-2">Mobile No</label>
-                <input type="text" placeholder="+91 00000 00000" className="w-full bg-[#EFF6FF]/50 p-5 rounded-2xl border-none focus:ring-4 focus:ring-[#3B82F6]/20 focus:outline-none transition-all placeholder:text-slate-400 font-bold" />
+                <input type="text" placeholder="+91 00000 00000" className="w-full bg-[#EFF6FF]/50 p-5 rounded-2xl border-none focus:ring-4 focus:ring-[#3B82F6]/20 focus:outline-none transition-all placeholder:text-slate-400 font-bold text-black" />
               </div>
               <div className="flex flex-col gap-3">
                 <label className="text-[#3B82F6] font-black text-[10px] uppercase tracking-[0.2em] ml-2">Message</label>
-                <textarea rows="4" placeholder="How can we help today?" className="w-full bg-[#EFF6FF]/50 p-5 rounded-2xl border-none focus:ring-4 focus:ring-[#3B82F6]/20 focus:outline-none transition-all placeholder:text-slate-400 font-bold h-32"></textarea>
+                <textarea rows="4" placeholder="How can we help today?" className="w-full bg-[#EFF6FF]/50 p-5 rounded-2xl border-none focus:ring-4 focus:ring-[#3B82F6]/20 focus:outline-none transition-all placeholder:text-slate-400 font-bold h-32 text-black"></textarea>
               </div>
               <button className="w-full bg-[#1E3A8A] text-white py-6 rounded-[2rem] font-black flex items-center justify-center gap-4 transition-all shadow-2xl hover:bg-[#3B82F6] hover:scale-[1.02] active:scale-95 uppercase tracking-widest text-xs h-20 group">
                 Send Message <Send size={20} className="group-hover:translate-x-2 transition-transform" />
