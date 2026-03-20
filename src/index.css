@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+/* Tailwind v4 CSS Customization for Theme */
+@theme {
+  --color-sky-blue: #3B82F6;
+  --color-soft-blue: #93C5FD;
+  --color-light-blue-bg: #EFF6FF;
+  --color-cool-gray: #E5E7EB;
+  --color-dark-blue-text: #1E3A8A;
+  
+  --font-nunito: 'Nunito', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
